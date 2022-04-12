@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+	</head>
+	
+	<body>
+		<h1>html</h1>
+		<h2>기본태그</h2>
+		<h3>폼태그</h3>
+		
+		<form action="" method="post">
+	
+			<label for="txt-id">아이디</label>
+			<input id="txt-id" type="text" placeholder="아이디" name="id" value=""> 
+			<br>
+			<label for="txt-NICK">닉네임</label>
+			<input id="txt-NICK" type="text" placeholder="닉네임" name="NICK" value=""> 
+			<br>
+			<label for="txt-password">패스워드</label>
+			<input id="txt-password" type="password" placeholder="문자 숫자 특수기호" name="" value="">
+			<br>
+			<label>게시판번호</label>
+			<input type="hidden" name="b-id" value="3"> 
+			<!-- hidden은 눈에 보이지 않음! -->
+			<br>
+			<label for="txt-file">프로필사진</label>
+			<input id="txt-file" type="file"></input>
+			<br>
+			<br>
+			<label for="chr-book">독서</label>
+			<input id="chr-book" type="checkbox" name="hobby" value="book">
+			
+			<label for="chr-music">음악</label>
+			<input id="chr-musid" type="checkbox" name="hobby" value="music">
+			
+			<label for="chr=travel">여행</label>
+			<input id="chr-travel" type="checkbox" name="hobby" value="trvel">
+			<br>
+			
+			<label for="chk-dog">개</label>
+			<input id="chk-dog" type="checkbox" name="pet" value="dog" checked="checked">
+			
+			<label for="chk-cat">고양이</label>
+			<input id="chk-cat" type="checkbox" name="pet" value="cat">
+			
+			<label for="chk-bird">새</label>
+			<input id="chk-bird" type="checkbox" name="pet" value="bird">
+			<br>
+			<br>
+			
+			<label for="rdo-apple">사과</label>
+			<input id="rdo-apple" type="radio" name="fruit" value="apple">
+			
+			<label for="rdo-grape">포도</label>
+			<input id="rdo-grape" type="radio" name="fruit" value="grape" checked="checked">
+			
+			<label for="rdo-orange">오렌지</label>
+			<input id="rdo-orange" type="radio" name="fruit" value="orange">
+			<br>
+
+			<label>1월</label>
+			<input id="rdo-m1" type="radio" name="month" value="1">
+			
+			<label>2월</label>
+			<input id="rdo-m2" type="radio" name="month" value="2">
+			
+			<label>3월</label>
+			<input id="rdo-m3" type="radio" name="month" value="3">
+			<br>
+			<br>
+		
+			<label for="sell-telecom">통신사</label>
+			﻿<select id="sel-telecom" name="telecom">
+				<option value="" selected="selected">통신사를 선택해 주세요.</option>
+				<option value="SKT">SKT</option>
+				<option value="KT">KT</option>
+				<option value="LGU">LGU</option>
+				<option value="etc">기타</option>
+			</select>
+			<br>
+				<textarea name="content">안녕하세요.김수빈입니다.
+				</textarea>
+		
+			<br>
+			<br>
+			<button type="submit">회원가입</button>
+			<!-- <input type="submit" value="회원가입"> 권장하지 않음! ppt참고 -->
+		</form>
+		
+	</body>
+</html>
